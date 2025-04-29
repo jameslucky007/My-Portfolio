@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      <h1>Hello, Next.js 15 App Router!</h1>
+      <h1 className="">Hello, Next.js 15 App Router!</h1>
     </>
   );
 }
