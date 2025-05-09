@@ -6,6 +6,9 @@ const Navbar = () => {
  
 
         <nav>
+        <div>
+          <h1 className='text'>Lucky <spam> A.</spam> </h1>
+        </div>
             
         </nav>
     </>
