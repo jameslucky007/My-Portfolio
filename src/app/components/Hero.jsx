@@ -1,9 +1,60 @@
-import React from 'react'
+'use client';
 
-const Hero = () => {
+import React, { useEffect, useRef } from 'react';
+
+const HomeScreen = () => {
+  const canvasRef = useRef(null);
+
+  // Animation for the moving gradient background
+  useEffect(() => {
+    const canvas = canvasRef.current;
+    const ctx = canvas.getContext('2d');
+    let time = 0;
+
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+
+    const resize = () => {
+      canvas.width = window.innerWidth;
+      canvas.height = window.innerHeight;
+    };
+
+    window.addEventListener('resize', resize);
+
+    // Animation function for the gradient
+    const animate = () => {
+      time += 0.005;
+      
+      // Create a blue gradient that moves slowly
+      const gradient = ctx.createLinearGradient(
+        Math.sin(time) * canvas.width, 
+        Math.cos(time * 0.8) * canvas.height, 
+        canvas.width - Math.cos(time * 0.5) * canvas.width, 
+        canvas.height - Math.sin(time * 0.3) * canvas.height
+      );
+      
+      // Dark blue to light blue gradient with some purple tones
+      gradient.addColorStop(0, 'rgba(10, 10, 50, 1)');
+      gradient.addColorStop(0.3, 'rgba(30, 30, 100, 1)');
+      gradient.addColorStop(0.6, 'rgba(40, 80, 170, 1)');
+      gradient.addColorStop(0.8, 'rgba(60, 90, 200, 1)');
+      gradient.addColorStop(1, 'rgba(70, 40, 120, 1)');
+      
+      ctx.fillStyle = gradient;
+      ctx.fillRect(0, 0, canvas.width, canvas.height);
+      
+      requestAnimationFrame(animate);
+    };
+
+    animate();
+
+    return () => {
+      window.removeEventListener('resize', resize);
+    };
+  }, []);
+
   return (
-    <>
-          <div className="relative w-full h-screen overflow-hidden">
+    <div className="relative w-full h-screen overflow-hidden">
       {/* Animated background */}
       <canvas 
         ref={canvasRef} 
@@ -52,8 +103,7 @@ const Hero = () => {
       <div className="absolute top-1/4 left-1/4 w-64 h-64 rounded-full bg-blue-500/30 blur-3xl animate-pulse-slow"></div>
       <div className="absolute bottom-1/3 right-1/3 w-96 h-96 rounded-full bg-indigo-600/20 blur-3xl animate-float-slow"></div>
     </div>
-    </>
-  )
-}
+  );
+};
 
-export default Hero
+export default HomeScreen;
