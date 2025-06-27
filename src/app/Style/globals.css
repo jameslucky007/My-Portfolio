@@ -1,3 +1,5 @@
+/* ----------- Boilerplate CSS ---------- */
+
 @import "tailwindcss";
 
 /* Fonts */
@@ -28,3 +30,7 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+
+/* ----------- Main Style Code ---------- */
+/* ----------- 1. Navbar Code ---------- */
