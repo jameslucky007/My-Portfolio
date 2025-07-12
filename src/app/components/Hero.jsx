@@ -5,7 +5,9 @@ const Hero = () => {
    <>
         <div className="flex min-h-screen">
       {/* Left Panel - Fixed */}
+      
       <aside className="w-1/3 max-w-md p-8 fixed h-screen bg-[#0a192f] text-white">
+      <img className='rounded-4xl w-50 justify-center ml-20' src="https://images.unsplash.com/photo-1750969393822-36e48a31895f?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="img" />
         <h1 className="text-4xl font-bold">Brittany Chiang</h1>
         <h2 className="text-xl mt-2">Front End Engineer</h2>
         <p className="mt-4 text-gray-400">
