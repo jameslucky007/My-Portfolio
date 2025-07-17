@@ -1,20 +1,16 @@
-import Image from "next/image";
 import Hero from "./components/Hero";
-import Contact from "./components/Contact";
-import Navbar from "./components/Navbar";
-import About from "./components/About";
-import Project from "./components/Project";
-
-
+import Sidebar from "./components/Sidebar";
+import Images from "./components/Images";
 
 export default function Home() {
+  const userName = "Lucky";
+  const mainTitle = "Welcome to the Hero Section";
+
   return (
-<>
-  <Navbar/>
-  <Hero/>
-  <About/>
-  <Project/>  
-  <Contact/>
-</>
+    <>
+      <Sidebar name={userName} />
+      <Hero title={mainTitle} />
+      <Images />
+    </>
   );
 }
