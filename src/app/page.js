@@ -1,6 +1,6 @@
 import Hero from "./components/Hero";
 import Sidebar from "./components/Sidebar";
-import Images from "./components/Images";
+
 
 export default function Home() {
   const userName = "Lucky";
@@ -10,7 +10,7 @@ export default function Home() {
     <>
       <Sidebar name={userName} />
       <Hero title={mainTitle} />
-      <Images />
+   
     </>
   );
 }

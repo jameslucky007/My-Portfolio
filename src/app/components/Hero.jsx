@@ -4,7 +4,7 @@
     return (
     <>
           <div className="flex min-h-screen">
-        <main className="ml-[33.3333%] w-2/3 p-8 overflow-y-auto max-h-screen bg-[#0a192f] text-gray-300">
+        <main className="ml-[33.3333%] w-2/3 p-8 overflow-y-auto max-h-screen  text-gray-300">
           <section id="about">
             <h2 className="text-xl font-semibold mb-4">About</h2>
             <p className="mb-6">

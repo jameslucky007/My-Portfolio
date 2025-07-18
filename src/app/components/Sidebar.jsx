@@ -4,7 +4,7 @@ const Sidebar = () => {
   return (
     <>
        
-        <aside className=" max-w-auto p-10 fixed h-screen bg-[#0a192f] text-white">
+        <aside className=" max-w-auto p-10 fixed h-screen  text-white">
       <img className='rounded-4xl w-50 justify-center ml-20' src="https://images.unsplash.com/photo-1750969393822-36e48a31895f?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="img" />
         <h1 className="text-4xl font-bold">Brittany Chiang</h1>
         <h2 className="text-xl mt-2">Front End Engineer</h2>
