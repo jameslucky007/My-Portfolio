@@ -3,7 +3,9 @@ import React from 'react'
 const content = () => {
   return (
     <>
-      <h1>hh</h1>
+      <div>
+        <h2>Hello</h2>
+      </div>
     </>
   )
 }
