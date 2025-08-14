@@ -4,7 +4,7 @@ const nextConfig = {
   // output: "export",
   // distDir: "dist",
   images: {
-    unoptimized: true, // Fix for image optimization issue in static export
+    unoptimized: true, 
   },
 };
 
