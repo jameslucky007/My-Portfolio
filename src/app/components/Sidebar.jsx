@@ -14,7 +14,7 @@ const Sidebar = () => {
           width={160} 
           height={160} 
         />
-        <h1 className="text-3xl lg:text-4xl font-bold text-center lg:text-left">Subhabas</h1>
+        <h1 className="text-3xl lg:text-4xl font-bold text-center lg:text-left">Lakki Ali</h1>
         <h4 className="text-lg lg:text-xl mt-2 text-blue-300 text-center lg:text-left">Web Developer | Software Engineer</h4>
         <p className="mt-4 text-gray-300 text-sm lg:text-base text-center lg:text-left lg:pr-4">
           I build accessible, pixel-perfect digital <br className="hidden lg:block" /> experiences for the web.
