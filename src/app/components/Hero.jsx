@@ -1,5 +1,10 @@
+
+// Hero.js (with About content)
 'use client';
 import React, { useState, useEffect } from 'react';
+import About from './About';
+import Experience from './Experience';
+
 
 const Hero = () => {
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
@@ -33,8 +38,11 @@ const Hero = () => {
             backgroundSize: '100px 100px'
           }}
         />
-
+          <About/>
+       
       </div>
+    
+    
     </>
   );
 };

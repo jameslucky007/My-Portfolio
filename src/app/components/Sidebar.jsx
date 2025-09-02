@@ -3,6 +3,7 @@ import React from 'react';
 import { FaGithub, FaLinkedin, FaTwitter, FaInstagram, FaCodepen } from "react-icons/fa";
 import Image from 'next/image';
 
+
 const Sidebar = () => {
   return (
     <aside className="lg:max-w-md lg:p-10 lg:ml-10 lg:fixed lg:h-screen text-white lg:w-1/3 p-6 relative z-30">
@@ -21,10 +22,11 @@ const Sidebar = () => {
         </p>
 
         <nav className="mt-8 lg:mt-10 space-y-3 text-center lg:text-left">
-          <a href="#about" className="block text-sm text-gray-300 hover:text-blue-300 transition-colors duration-200 tracking-wider uppercase">About</a>
-          <a href="#experience" className="block text-sm text-gray-300 hover:text-blue-300 transition-colors duration-200 tracking-wider uppercase">Experience</a>
-          <a href="#projects" className="block text-sm text-gray-300 hover:text-blue-300 transition-colors duration-200 tracking-wider uppercase">Projects</a>
-          <a href="#content" className="block text-sm text-gray-300 hover:text-blue-300 transition-colors duration-200 tracking-wider uppercase">Content</a>
+          <a href="/" className="block text-sm text-gray-300 hover:text-blue-300 transition-colors duration-200 tracking-wider">Home</a>
+          <a href="#about" className="block text-sm text-gray-300 hover:text-blue-300 transition-colors duration-200 tracking-wider">About</a>
+          <a href="#experience" className="block text-sm text-gray-300 hover:text-blue-300 transition-colors duration-200 tracking-wider">Experience</a>
+          <a href="#projects" className="block text-sm text-gray-300 hover:text-blue-300 transition-colors duration-200 tracking-wider">Projects</a>
+          <a href="#content" className="block text-sm text-gray-300 hover:text-blue-300 transition-colors duration-200 tracking-wider">Content</a>
         </nav>
 
         <div className="mt-8 lg:mt-10 flex justify-center lg:justify-start space-x-4">

@@ -1,6 +1,7 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./Style/globals.css";
 import "./Style/responsive.css";
+import { FaIcons } from "react-icons/fa";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -15,6 +16,7 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title: "Lucky A",
   description: "my portfolio",
+  icons: { icon: "/icon.ico" },
 };
 
 export default function RootLayout({ children }) {
