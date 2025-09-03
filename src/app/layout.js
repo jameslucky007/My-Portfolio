@@ -1,7 +1,6 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./Style/globals.css";
 import "./Style/responsive.css";
-import { FaIcons } from "react-icons/fa";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
