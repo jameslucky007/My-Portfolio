@@ -1,4 +1,5 @@
 // import Comminsoon from "./components/Comminsoon";
+import Experience from "./components/Experience";
 import Hero from "./components/Hero";
 import Sidebar from "./components/Sidebar";
 
@@ -12,6 +13,7 @@ export default function Home() {
     <>
       <Sidebar name={userName} />
       <Hero title={mainTitle} />
+
       {/* <Comminsoon/> */}
    
     </>
