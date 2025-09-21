@@ -3,6 +3,7 @@ import React from 'react'
 const About = () => {
   return (
     <>
+    <h1>add chnages</h1>
           {/* Main Content Area */}
         <main className="lg:ml-[33.333333%] w-full lg:w-2/3 p-6 lg:p-10 relative z-20">
           <section id="about" className="max-w-2xl text-gray-300 leading-relaxed space-y-6 pt-10 lg:pt-20">
