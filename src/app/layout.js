@@ -1,16 +1,23 @@
-import { Geist, Geist_Mono } from "next/font/google";
-import "./Style/globals.css";
-import "./Style/responsive.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+import { Poppins, Roboto } from "next/font/google";
+import "./globals.css";
+
+
+// Fonts Veriables
+
+const poppins = Poppins({
   subsets: ["latin"],
+  variable: "--font-poppins",
+  weight: ["400", "500", "600", "700"], 
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const roboto = Roboto({
   subsets: ["latin"],
+  variable: "--font-roboto",
+  weight: ["400", "500", "700"], 
 });
+
+//  Meta data of website
 
 export const metadata = {
   title: "Lucky A",
@@ -21,9 +28,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+      <body className={`${poppins.variable} ${roboto.variable} antialiased`}>
         {children}
       </body>
     </html>
