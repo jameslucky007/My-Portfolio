@@ -28,21 +28,22 @@ const Sidebar = () => {
   return (
     <aside className="lg:max-w-md lg:p-10 lg:ml-10 lg:fixed lg:h-screen text-white lg:w-1/3 p-6  relative z-30">
       <div className="lg:sticky lg:top-10 pl-8">
-      <Link href={"/"}>
+        <Link href={"/"}>
           <Image
-          className="rounded-full w-32 h-32 lg:w-40 lg:h-40 object-cover relative z-10 border-2 border-blue-300 mb-5"
-          src="/photo.jpg"
-          alt="Profile"
-          width={160}
-          height={160}
-          
-        />
-      </Link>
-      
-        <a href="/"><h1 className="text-3xl lg:text-5xl font-extrabold text-center lg:text-left">
-          Lakki Ali
-        </h1></a>
-        
+            className="rounded-full w-32 h-32 lg:w-40 lg:h-40 object-cover relative z-10 border-2 border-blue-300 mb-5"
+            src="/photo.jpg"
+            alt="Profile"
+            width={160}
+            height={160}
+          />
+        </Link>
+
+        <a href="/">
+          <h1 className="text-3xl lg:text-5xl font-extrabold text-center lg:text-left">
+            Lakki Ali
+          </h1>
+        </a>
+
         <h4 className="text-lg lg:text-l mt-2 text-blue-300 text-center lg:text-left">
           Web Developer | Software Engineer
         </h4>
