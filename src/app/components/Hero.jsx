@@ -147,7 +147,7 @@ const Hero = () => {
       />
 
       {/* Main Content */}
-      <main className="ml-[33.3333%] w-2/3 p-6 lg:p-9 overflow-y-auto max-h-screen text-gray-300 relative z-20">
+      <main className="ml-[33.3333%] w-2/3 p-6 lg:p-12 overflow-y-auto max-h-screen text-gray-300 relative z-20 mt-22 ">
         {/* About Section */}
         <About />
         
