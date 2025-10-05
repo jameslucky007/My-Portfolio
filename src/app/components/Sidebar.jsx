@@ -26,7 +26,7 @@ const Sidebar = () => {
   ];
 
   return (
-    <aside className="lg:max-w-md lg:p-10 lg:ml-10 lg:fixed lg:h-screen text-white lg:w-1/3 p-6  relative z-30">
+    <aside className="lg:max-w-md lg:p-10 lg:ml-12 lg:fixed lg:h-screen text-white lg:w-1/3 p-6  relative z-30">
       <div className="lg:sticky lg:top-10 pl-8">
         <Link href={"/"}>
           <Image

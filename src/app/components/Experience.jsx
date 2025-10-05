@@ -43,7 +43,7 @@ const ExperienceSection = () => {
               <div className="lg:w-3/4">
                 {/* Job Title and Company */}
                 <div className="mb-4">
-                  <h3 className="text-lg font-semibold text-slate-200 group-hover:text-teal-300 transition-colors duration-200 flex items-center gap-2">
+                  <h3 className="text-lg font-semibold text-slate-200 group-hover:text-blue-400 transition-colors duration-200 flex items-center gap-2">
                     {exp.title} • {exp.company}
                     {exp.hasArrow && (
                       <svg className="w-4 h-4 transition-transform group-hover:translate-x-1" fill="currentColor" viewBox="0 0 20 20">
@@ -73,7 +73,7 @@ const ExperienceSection = () => {
                   {exp.technologies.map((tech, techIndex) => (
                     <span
                       key={techIndex}
-                      className="px-3 py-1 text-xs font-medium bg-teal-400/10 text-teal-300 rounded-full border border-teal-400/20"
+                      className="px-3 py-1 text-xs font-medium bg-teal-400/10 text-blue-300 rounded-full border border-teal-400/20"
                     >
                       {tech}
                     </span>
@@ -91,7 +91,7 @@ const ExperienceSection = () => {
 
 const Experience = () => {
   return (
-    <div className="min-h-screen bg-slate-900 text-slate-300">
+    <div className="min-h-screen  text-slate-300">
       {/* Background noise texture */}
       <div 
         className="fixed inset-0 opacity-20 pointer-events-none"
