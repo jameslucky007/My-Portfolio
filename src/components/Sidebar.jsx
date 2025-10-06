@@ -20,6 +20,7 @@ const Sidebar = () => {
 
   const links = [
     { id: "about", label: "About" },
+     { id: "skills", label: "Skills" },
     { id: "experience", label: "Experience" },
     { id: "projects", label: "Projects" },
     { id: "content", label: "Content" },
@@ -33,8 +34,8 @@ const Sidebar = () => {
             className="rounded-full w-32 h-32 lg:w-40 lg:h-40 object-cover relative z-10 border-2 border-blue-300 mb-5"
             src="/photo.jpg"
             alt="Profile"
-            width={160}
-            height={160}
+            width={150}
+            height={150}
           />
         </Link>
 

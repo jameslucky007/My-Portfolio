@@ -5,16 +5,15 @@ const ExperienceSection = () => {
   const experiences = [
     {
       period: "2024 — PRESENT",
-      title: "Senior Frontend Engineer, Accessibility",
-      company: "Klaviyo",
+      title: "Freelancer",
       hasArrow: true,
       description: "Build and maintain critical components used to construct Klaviyo's frontend, across the whole product. Work closely with cross-functional teams, including developers, designers, and product managers, to implement and advocate for best practices in web accessibility.",
       technologies: ["JavaScript", "TypeScript", "React", "Storybook"]
     },
     {
-      period: "2018 — 2024",
-      title: "Lead Engineer",
-      company: "Upstatement",
+      period: "2024 — PRESENT",
+      title: "Frontend Engineer, Accessibility",
+      company: "Kwiqsoft",
       hasArrow: true,
       subtitle: "Senior Engineer",
       subtitle2: "Engineer", 

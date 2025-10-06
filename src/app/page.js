@@ -1,5 +1,5 @@
-import Hero from "./components/Hero";
-import Sidebar from "./components/Sidebar";
+import Hero from "../components/Hero";
+import Sidebar from "../components/Sidebar";
 
 export default function Home() {
 
