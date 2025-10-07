@@ -2,6 +2,7 @@
 import { useState, useEffect } from 'react';
 import About from './About';
 import Experience from './Experience';
+import Skill from './Skill';
 
 const Hero = () => {
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
@@ -32,6 +33,7 @@ const Hero = () => {
       />
       <main className="ml-[33.3333%] w-2/3 p-5 lg:p-10 overflow-y-auto max-h-screen text-gray-300 relative z-20">
         <About />
+        <Skill/>
         <Experience />
         
       </main>
