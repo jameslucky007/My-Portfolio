@@ -3,6 +3,7 @@ import { useState, useEffect } from 'react';
 import About from './About';
 import Experience from './Experience';
 import Skill from './Skill';
+import Project from './Project';
 
 const Hero = () => {
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
@@ -35,6 +36,7 @@ const Hero = () => {
         <About />
         <Skill/>
         <Experience />
+        <Project/>
         
       </main>
     </div>

@@ -23,7 +23,6 @@ const Sidebar = () => {
      { id: "skills", label: "Skills" },
     { id: "experience", label: "Experience" },
     { id: "projects", label: "Projects" },
-    { id: "content", label: "Content" },
   ];
 
   return (

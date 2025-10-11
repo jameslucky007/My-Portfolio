@@ -23,7 +23,7 @@ const ExperienceSection = () => {
   ];
 
   return (
-    <div className="max-w-4xl mx-auto px-6 py-12">
+    <div className="max-w-4xl mx-auto px-6 py-12 " id='experience'>
       <div className="space-y-12">
         {experiences.map((exp, index) => (
           <div 
@@ -101,7 +101,10 @@ const Experience = () => {
       />
       
       <ExperienceSection />
+   
     </div>
+
+    
   );
 };
 

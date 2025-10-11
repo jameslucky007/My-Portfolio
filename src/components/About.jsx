@@ -3,9 +3,10 @@ import React from 'react'
 const About = () => {
   return (
     <>
+       <a href=""  id="about"> Resume </a>
   <main className="w-full relative z-20 overflow-hidden">
       <section
-        id="about"
+       
         className="max-w-3xl text-gray-300 leading-relaxed space-y-6 pt-12 lg:pt-20 mb-10"
       >
         <h2 className="text-2xl lg:text-3xl font-semibold text-blue-400 mb-4">
